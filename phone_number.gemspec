@@ -10,20 +10,21 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["beawesomeinstead"]
   s.date = %q{2011-02-16}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Library for parsing, formatting, storing and validating international phone numbers.}
   s.email = %q{beawesomeinstead@yahoo.com}
   s.extra_rdoc_files = [
-    "README.md"
+    "README.markdown"
   ]
   s.files = [
     ".document",
     "Gemfile",
     "Gemfile.lock",
-    "README.md",
+    "README.markdown",
     "Rakefile",
     "VERSION",
     "lib/data.yml",
     "lib/phone_number.rb",
+    "phone_number.gemspec",
     "test/helper.rb",
     "test/test_phone_number.rb"
   ]
@@ -31,7 +32,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.5.0}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Library for parsing, formatting, storing and validating international phone numbers.}
   s.test_files = [
     "test/helper.rb",
     "test/test_phone_number.rb"

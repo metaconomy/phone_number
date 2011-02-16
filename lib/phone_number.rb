@@ -1,3 +1,3 @@
 module PhoneNumber
-  DATA = YAML.load(File.read("data.yml"))
+  METADATA = YAML.load(File.read("#{File.dirname(__FILE__)}/data.yml"))
 end
