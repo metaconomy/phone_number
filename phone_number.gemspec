@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/data.yml",
     "lib/phone_number.rb",
+    "lib/phone_number/parser.rb",
     "phone_number.gemspec",
     "test/helper.rb",
     "test/test_phone_number.rb"
